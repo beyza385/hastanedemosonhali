@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="494.0" prefWidth="477.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hastanedemo2.DoktorIslemEkrani">
+   <children>
+      <Button fx:id="RandevuBt" alignment="CENTER" layoutX="144.0" layoutY="179.0" mnemonicParsing="false" onAction="#onRandevuBtClick" prefHeight="25.0" prefWidth="186.0" style="-fx-background-color: STEELBLUE;" text="Randevu Görüntüle" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="ReceteBt" layoutX="145.0" layoutY="220.0" mnemonicParsing="false" onAction="#onReceteBtClick" prefHeight="27.0" prefWidth="186.0" style="-fx-background-color: STEELBLUE;" text="Reçete ve Tanı Tanımla" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="TaburcuBt" layoutX="144.0" layoutY="262.0" mnemonicParsing="false" onAction="#onTaburcuBtClick" prefHeight="27.0" prefWidth="186.0" style="-fx-background-color: STEELBLUE;" text="Taburcu Et" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Button>
+      <Label alignment="CENTER" layoutX="-1.0" layoutY="-1.0" prefHeight="112.0" prefWidth="477.0" text="İŞLEMLER">
+         <font>
+            <Font name="Arial Narrow Bold" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

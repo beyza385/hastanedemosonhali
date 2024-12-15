@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="241.0" prefWidth="430.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hastanedemo2.TaburcuEtmeEkrani">
+   <children>
+      <Label alignment="CENTER" layoutX="62.0" layoutY="24.0" text="TABURCU ETME İŞLEMLERİ">
+         <font>
+            <Font name="Arial Narrow Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="62.0" layoutY="82.0" text="Hasta TC:">
+         <font>
+            <Font name="Arial Narrow Bold" size="15.0" />
+         </font>
+      </Label>
+      <TextField layoutX="145.0" layoutY="78.0" promptText="hastaTcTf" />
+      <Button fx:id="TaburcuEtBt" layoutX="170.0" layoutY="141.0" mnemonicParsing="false" onAction="#onTaburcuEtBtClick" style="-fx-background-color: STEELBLUE;" text="Taburcu Et" textFill="WHITE">
+         <font>
+            <Font name="Arial Narrow Bold" size="16.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

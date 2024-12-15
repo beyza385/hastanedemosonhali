@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="492.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hastanedemo2.DoktorRandevuGoruntule">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="171.0" layoutY="27.0" text="RANDEVULAR">
+         <font>
+            <Font name="Arial Narrow Bold" size="26.0" />
+         </font>
+      </Label>
+      <TableView fx:id="hastaRandevuTb" layoutX="69.0" layoutY="97.0" prefHeight="244.0" prefWidth="354.0">
+        <columns>
+          <TableColumn fx:id="HastaAdiColumn" prefWidth="85.59998321533203" text="Hasta Adı " />
+          <TableColumn fx:id="SoyadiColumn" minWidth="6.39996337890625" prefWidth="103.199951171875" text="Hasta Soyadı" />
+            <TableColumn fx:id="RandevuColumn" prefWidth="156.00006103515625" text="Randevu Saati" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </children>
+</Pane>
